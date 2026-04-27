@@ -1,0 +1,51 @@
+.cuerpo {
+    background-image: url("https://safeworkhealth.com.au/wp-content/uploads/2023/03/methamphetamine-1.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #1a1a1a; 
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Una letra más limpia */
+}
+
+.encabezado {
+    text-align: center;
+    font-size: 20px; /* Reducido un poco para que no sea gigante */
+    margin: 20px auto;
+    width: 90%; /* Más flexible en móviles */
+    max-width: 500px; /* Pero no más grande de esto en PC */
+    color: white;
+    background-color: #1254e1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.resultados {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://hydroenv.com.mx/wp-content/uploads/2025/03/Semilla_pasto2.webp);
+    background-size: cover;
+    padding: 30px 20px;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.5); /* Sombra para que flote sobre el fondo */
+}
+
+/* Estilo para los títulos azules dentro del bloque */
+.subtitulo-azul {
+    color: #4db8ff; /* Un azul más brillante para que se lea sobre el verde */
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    margin: 20px 0;
+}
